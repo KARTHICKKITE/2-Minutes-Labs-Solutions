@@ -40,7 +40,7 @@ curl -s -X POST -H "Content-Type: application/json" --data-binary @request.json 
 
 
 curl -s -X POST -H "Content-Type: application/json" --data-binary @request.json \
-"https://speech.googleapis.com/v1/speech:recognize?key=${API_KEY}" > result.json
+"https://speech.googleapis.com/v1/speech:recognize?key=$AIzaSyCdJJzi2uRKtdURIM6hMwRtxRNJqZnOtFs" > result.json
 
 echo "${RED}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for${RESET}" "${GREEN}${BOLD}Completing the Lab !!!${RESET}"
 
